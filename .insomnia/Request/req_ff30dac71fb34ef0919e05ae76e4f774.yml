@@ -1,0 +1,27 @@
+_id: req_ff30dac71fb34ef0919e05ae76e4f774
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606274405
+created: 1692814136046
+url: "{{ _.apiEngagements }}/internal-role/list"
+name: Client/InternalRoleList
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "12345"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229640.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

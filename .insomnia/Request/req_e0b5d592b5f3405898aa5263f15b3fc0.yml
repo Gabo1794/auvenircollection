@@ -1,0 +1,37 @@
+_id: req_e0b5d592b5f3405898aa5263f15b3fc0
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606279243
+created: 1692906328024
+url: "{{ _.apiEngagements }}/user-delete"
+name: internal-user-delete
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"engagementId": 28,
+    	"clientId": 1,
+    	"userId": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7b38c08e5d6b4d7bbe18301eaff33f4b
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "9"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229640.1953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

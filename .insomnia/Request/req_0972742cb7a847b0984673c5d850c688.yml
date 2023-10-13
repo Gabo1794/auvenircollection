@@ -1,0 +1,25 @@
+_id: req_0972742cb7a847b0984673c5d850c688
+type: Request
+parentId: fld_091f4ff90e2f49bfad0a4903d8565c80
+modified: 1696606169619
+created: 1694189840528
+url: "{{ _.apiClients }}/all"
+name: GetAllClient
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1694189840528
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

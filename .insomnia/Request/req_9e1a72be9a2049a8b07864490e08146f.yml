@@ -1,0 +1,185 @@
+_id: req_9e1a72be9a2049a8b07864490e08146f
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606337427
+created: 1694557700847
+url: "{{ _.apiEngagements }}"
+name: UpdateEngagement
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "clientId": 1,
+    	"engagementId": 31,
+      "name": "Test insomnia carryforward",
+    	 "clientCarryForwardId": 1,
+      "engagementCarryForwardId": 30,
+      "isCarryForward": true,
+      "hasInternalTeam": true,
+      "hasClientTeam": true,
+      "startDate": "2023-08-28T20:26:14.428Z",
+      "endDate": "2024-08-28T20:26:14.428Z",
+      "dueDate": "2024-09-13",
+    	"pendingEngagementId": null,
+    	"engagementTypeId": 1,
+      "engagementCarryForwards": [
+        {
+          "engagementSectionTypeId": 2,
+          "engagementSectionStepCarryForwards": [
+            {
+              "engagementSectionStepTypeId": 1,
+    					"isSectionStepSelected": true,
+              "engagementsWorkingPapers": [
+    						
+    					]
+            },
+    				{
+              "engagementSectionStepTypeId": 10,
+    					"isSectionStepSelected": true,
+              "engagementsWorkingPapers": [
+    						{
+    							"file": "test.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_2.pdf",
+    							"selectedForCarryForward": false
+    						}
+    					]
+            }
+          ]
+        },
+    		{
+          "engagementSectionTypeId": 3,
+          "engagementSectionStepCarryForwards": [
+            {
+    					"engagementSectionStepTypeId": 11,
+    					"isSectionStepSelected": false,
+    					"engagementsWorkingPapers": []
+    				},
+    				{
+    					"engagementSectionStepTypeId": 12,
+    					"isSectionStepSelected": true,
+    					"engagementsWorkingPapers": [
+    						{
+    							"file": "test_3.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_4.pdf",
+    							"selectedForCarryForward": false
+    						}
+    					]
+    				},
+    				{
+    					"engagementSectionStepTypeId": 13,
+    					"isSectionStepSelected": false,
+    					"engagementsWorkingPapers": []
+    				},
+    				{
+    					"engagementSectionStepTypeId": 14,
+    					"isSectionStepSelected": false,
+    					"engagementsWorkingPapers": []
+    				},
+    				{
+    					"engagementSectionStepTypeId": 15,
+    					"isSectionStepSelected": true,
+    					"engagementsWorkingPapers": [
+    						{
+    							"file": "test_5.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_6.pdf",
+    							"selectedForCarryForward": true
+    						}
+    					]
+    				}
+          ]
+        },
+    		{
+          "engagementSectionTypeId": 4,
+          "engagementSectionStepCarryForwards": [
+            {
+    					"engagementSectionStepTypeId": 16,
+    					"isSectionStepSelected": true,
+    					"engagementsWorkingPapers": [
+    						{
+    							"file": "test_6.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_8.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_9.pdf",
+    							"selectedForCarryForward": false
+    						},
+    						{
+    							"file": "test_10.pdf",
+    							"selectedForCarryForward": true
+    						}
+    					]
+    				}
+          ]
+        }
+      ],
+      "engagementInternalTeamRoles": [
+        {
+          "userId": 1,
+    			"userName": "Gabriel",
+          "userLastName": "Testing",
+          "userEmail": "email.1@email.com",						
+          "rolesId": [
+            0
+          ]
+        }
+      ],
+      "engagementClientTeamRoles": [
+        {
+          "userId": 0,
+          "userName": "Gabriel 10",
+          "userLastName": "Testing 10",
+          "userEmail": "email.10@email.com",			
+          "rolesId": [
+            10
+          ]
+        },
+    		{
+          "userId": 11,
+          "userName": "Gabriel",
+          "userLastName": "Testing",
+          "userEmail": "email.1@email.com",			
+          "rolesId": [
+            10
+          ]
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c1bf1945f1a24462a43c5ed6faa10209
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "9"
+    description: ""
+  - id: pair_bda4ca860b4848e1ba393d3d0d312f4f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229627.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

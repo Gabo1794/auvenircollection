@@ -1,0 +1,38 @@
+_id: req_6081fe8309224af69ba3e2832918572c
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606367300
+created: 1692992549611
+url: "{{ _.apiEngagements }}/pendingEngagement"
+name: PendingEngagements
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "ClientId": 1,
+      "ClientName": "Test new values",
+    	"EngagementTypeId": 2,
+      "EngagementName": "Test Pending new values",
+      "StartDate": "2023-08-25",
+      "EndDate": "2024-08-25",
+    	"DueDate": null,
+      "JsonRequest": "{\"clientId\":1,\"name\":\"Testsendingemails\",\"clientCarryForwardId\":1,\"engagementCarryForwardId\":30,\"isCarryForward\":true,\"hasInternalTeam\":true,\"hasClientTeam\":true,\"startDate\":\"2023-08-28T20:26:14.428Z\",\"endDate\":\"2024-08-28T20:26:14.428Z\",\"dueDate\":\"2024-09-13\",\"pendingEngagementId\":null,\"engagementTypeId\":1,\"engagementCarryForwards\":[{\"engagementSectionTypeId\":2,\"engagementSectionStepCarryForwards\":[{\"engagementSectionStepTypeId\":1,\"isSectionStepSelected\":false,\"engagementsWorkingPapers\":[{\"file\":\"children1.pdf\",\"selectedForCarryForward\":false},{\"file\":\"children2.pdf\",\"selectedForCarryForward\":false}]},{\"engagementSectionStepTypeId\":10,\"isSectionStepSelected\":true,\"engagementsWorkingPapers\":[{\"file\":\"test.pdf\",\"selectedForCarryForward\":true},{\"file\":\"test_2.pdf\",\"selectedForCarryForward\":false}]}]},{\"engagementSectionTypeId\":3,\"engagementSectionStepCarryForwards\":[{\"engagementSectionStepTypeId\":11,\"isSectionStepSelected\":false,\"engagementsWorkingPapers\":[]},{\"engagementSectionStepTypeId\":12,\"isSectionStepSelected\":true,\"engagementsWorkingPapers\":[{\"file\":\"test_3.pdf\",\"selectedForCarryForward\":true},{\"file\":\"test_4.pdf\",\"selectedForCarryForward\":false}]},{\"engagementSectionStepTypeId\":13,\"isSectionStepSelected\":false,\"engagementsWorkingPapers\":[]},{\"engagementSectionStepTypeId\":14,\"isSectionStepSelected\":false,\"engagementsWorkingPapers\":[]},{\"engagementSectionStepTypeId\":15,\"isSectionStepSelected\":true,\"engagementsWorkingPapers\":[{\"file\":\"test_5.pdf\",\"selectedForCarryForward\":true},{\"file\":\"test_6.pdf\",\"selectedForCarryForward\":true}]}]},{\"engagementSectionTypeId\":4,\"engagementSectionStepCarryForwards\":[{\"engagementSectionStepTypeId\":16,\"isSectionStepSelected\":true,\"engagementsWorkingPapers\":[{\"file\":\"test_6.pdf\",\"selectedForCarryForward\":true},{\"file\":\"test_8.pdf\",\"selectedForCarryForward\":true},{\"file\":\"test_9.pdf\",\"selectedForCarryForward\":false},{\"file\":\"test_10.pdf\",\"selectedForCarryForward\":true}]}]}],\"engagementInternalTeamRoles\":[{\"userId\":1,\"userName\":\"Gabriel\",\"userLastName\":\"Testing\",\"userEmail\":\"email.1@email.com\",\"rolesId\":[0]}],\"engagementClientTeamRoles\":[{\"userId\":0,\"userName\":\"Gabriel\",\"userLastName\":\"Testing\",\"userEmail\":\"sonic1794@gmail.com\",\"rolesId\":[0]}]}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c1bf1945f1a24462a43c5ed6faa10209
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229590
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

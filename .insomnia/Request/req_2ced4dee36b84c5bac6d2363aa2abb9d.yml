@@ -1,0 +1,31 @@
+_id: req_2ced4dee36b84c5bac6d2363aa2abb9d
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696874012058
+created: 1694460207773
+url: "{{ _.apiEngagements }}/engagements-dashboard"
+name: GetEngagementDashboardTable
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "9"
+    description: ""
+  - id: pair_bda4ca860b4848e1ba393d3d0d312f4f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229390
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

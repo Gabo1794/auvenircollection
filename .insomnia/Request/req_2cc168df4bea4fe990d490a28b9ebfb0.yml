@@ -1,0 +1,50 @@
+_id: req_2cc168df4bea4fe990d490a28b9ebfb0
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606371848
+created: 1693932019057
+url: "{{ _.apiEngagements }}/pendingEngagement/84"
+name: update-pending-engagement
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"clientId":1,"clientName":"Client 1","engagementName":"Test Ajay
+    21-5","startDate":"2023-09-22","endDate":"2023-09-25","dueDate":"2023-09-25","engagementTypeId":"Compilation","jsonRequest":"{\"clientId\":1,\"name\":\"Test
+    Ajay
+    21-5\",\"isCarryForward\":true,\"hasInternalTeam\":false,\"engagementTypeId\":\"Compilation\",\"hasClientTeam\":false,\"startDate\":\"2023-09-22\",\"endDate\":\"2023-09-25\",\"dueDate\":\"2023-09-25\",\"operatingName\":\"Operating
+    Name 1\",\"clientName\":\"Client
+    1\",\"type\":\"Compilation\",\"engagementCarryForwards\":[{\"engagementSectionTypeId\":2,\"name\":\"Planning\",\"engagementSectionSteps\":[{\"engagementSectionTypeId\":2,\"engagementSectionStepTypeId\":1,\"name\":\"Client
+    Acceptance\",\"sectionStepStatusName\":\"Selected\",\"checked\":true,\"sectionStepStatus\":2,\"workingPapers\":null,\"isOpen\":false},{\"engagementSectionTypeId\":2,\"engagementSectionStepTypeId\":10,\"name\":\"Engagement
+    Letter\",\"sectionStepStatusName\":\"Selected\",\"checked\":false,\"sectionStepStatus\":2,\"workingPapers\":[{\"orderId\":1,\"name\":\"test.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":2,\"engagementSectionStepTypeId\":10,\"workingPaperStatusName\":\"Selected\",\"checked\":false,\"workingPaperStatusTypeId\":2},{\"orderId\":2,\"name\":\"test_2.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":2,\"engagementSectionStepTypeId\":10,\"workingPaperStatusName\":\"Selected\",\"checked\":false,\"workingPaperStatusTypeId\":2}],\"isOpen\":true}]},{\"engagementSectionTypeId\":3,\"name\":\"Execution\",\"engagementSectionSteps\":[{\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":11,\"name\":\"Document
+    Gathering\",\"sectionStepStatusName\":\"Selected\",\"checked\":false,\"sectionStepStatus\":2,\"isOpen\":false},{\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":12,\"name\":\"Trial
+    Balance
+    Upload\",\"sectionStepStatusName\":\"Indeterminate\",\"checked\":\"indeterminate\",\"sectionStepStatus\":3,\"workingPapers\":[{\"orderId\":3,\"name\":\"test_3.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":12,\"workingPaperStatusName\":\"Selected\",\"checked\":false,\"workingPaperStatusTypeId\":2},{\"orderId\":4,\"name\":\"test_4.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":12,\"workingPaperStatusName\":\"UnSelected\",\"checked\":true,\"workingPaperStatusTypeId\":1}],\"isOpen\":true},{\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":13,\"name\":\"Account
+    Reviews and
+    Inputs\",\"sectionStepStatusName\":\"Selected\",\"checked\":true,\"sectionStepStatus\":2,\"workingPapers\":null,\"isOpen\":false},{\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":14,\"name\":\"Review
+    of Revenue and
+    Expenses\",\"sectionStepStatusName\":\"Selected\",\"checked\":true,\"sectionStepStatus\":2,\"workingPapers\":null,\"isOpen\":false},{\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":15,\"name\":\"Financial
+    Statement
+    Preparation\",\"sectionStepStatusName\":\"Indeterminate\",\"checked\":null,\"sectionStepStatus\":3,\"workingPapers\":[{\"orderId\":5,\"name\":\"test_5.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":15,\"workingPaperStatusName\":\"UnSelected\",\"checked\":false,\"workingPaperStatusTypeId\":1},{\"orderId\":6,\"name\":\"test_6.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":3,\"engagementSectionStepTypeId\":15,\"workingPaperStatusName\":\"Selected\",\"checked\":true,\"workingPaperStatusTypeId\":2}],\"isOpen\":false}]},{\"engagementSectionTypeId\":4,\"name\":\"Completion\",\"engagementSectionSteps\":[{\"engagementSectionTypeId\":4,\"engagementSectionStepTypeId\":16,\"name\":\"Management
+    Representation
+    Letter\",\"sectionStepStatusName\":\"Selected\",\"checked\":true,\"sectionStepStatus\":2,\"workingPapers\":[{\"orderId\":7,\"name\":\"test_6.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":4,\"engagementSectionStepTypeId\":16,\"workingPaperStatusName\":\"Selected\",\"checked\":true,\"workingPaperStatusTypeId\":2},{\"orderId\":8,\"name\":\"test_8.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":4,\"engagementSectionStepTypeId\":16,\"workingPaperStatusName\":\"Selected\",\"checked\":true,\"workingPaperStatusTypeId\":2},{\"orderId\":9,\"name\":\"test_9.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":4,\"engagementSectionStepTypeId\":16,\"workingPaperStatusName\":\"Selected\",\"checked\":true,\"workingPaperStatusTypeId\":2},{\"orderId\":10,\"name\":\"test_10.pdf\",\"url\":\"\",\"path\":\"\",\"engagementSectionTypeId\":4,\"engagementSectionStepTypeId\":16,\"workingPaperStatusName\":\"Selected\",\"checked\":true,\"workingPaperStatusTypeId\":2}],\"isOpen\":false}]}],\"engagementInternalTeamRoles\":[],\"engagementClientTeamRoles\":[],\"clientCarryForwardId\":1,\"engagementCarryForwardId\":30}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7b38c08e5d6b4d7bbe18301eaff33f4b
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "9"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

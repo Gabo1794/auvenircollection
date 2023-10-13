@@ -1,0 +1,35 @@
+_id: req_2099ecffc3244b5b8713fc0f8d6f8812
+type: Request
+parentId: fld_e95272c4cf2b4287a2b2a0613619f342
+modified: 1696606122273
+created: 1695659691959
+url: /resend-invitation
+name: Resend Invitation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Raul",
+      "lastName": "Montano",
+      "email": "gabriel.montano1794@gmail.com",
+      "userId": 315
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1695659691959
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

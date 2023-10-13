@@ -1,0 +1,25 @@
+_id: req_0b7506d424c84abe81882e5ef03cd69f
+type: Request
+parentId: fld_c228ffa26b5148e38e2f375c3c23d053
+modified: 1696606045349
+created: 1695849612156
+url: "{{ _.apiSecurity }}/client/1/engagement/30/permissions"
+name: GetEngagementPermisions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1695849612156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

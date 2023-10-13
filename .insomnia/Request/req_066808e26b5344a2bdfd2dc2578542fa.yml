@@ -1,0 +1,27 @@
+_id: req_066808e26b5344a2bdfd2dc2578542fa
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606226653
+created: 1692808437214
+url: "{{ _.apiEngagements }}/1/1/internal-team"
+name: Client/EngagementInternalTeam
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "12345"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

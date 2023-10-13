@@ -1,0 +1,183 @@
+_id: req_d1c2d0ce358b4992b7ee98b37b17c0a9
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1697127837038
+created: 1692735945342
+url: "{{ _.apiEngagements }}"
+name: AddEngagement
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "clientId": 1,
+      "name": "Test 12-10-2023",
+    	 "clientCarryForwardId": 1,
+      "engagementCarryForwardId": 30,
+      "isCarryForward": true,
+      "hasInternalTeam": true,
+      "hasClientTeam": true,
+      "startDate": "2023-08-28T20:26:14.428Z",
+      "endDate": "2024-08-28T20:26:14.428Z",
+      "dueDate": "2024-09-13",
+    	"pendingEngagementId": null,
+    	"engagementTypeId": 1,
+      "engagementCarryForwards": [
+        {
+          "engagementSectionTypeId": 2,
+          "engagementSectionStepCarryForwards": [
+            {
+              "engagementSectionStepTypeId": 1,
+    					"isSectionStepSelected": false,
+              "engagementsWorkingPapers": [
+    						{
+    							"file": "children1.pdf",
+    							"selectedForCarryForward": false
+    						},
+    						{
+    							"file": "children2.pdf",
+    							"selectedForCarryForward": false
+    						}
+    					]
+            },
+    				{
+              "engagementSectionStepTypeId": 10,
+    					"isSectionStepSelected": true,
+              "engagementsWorkingPapers": [
+    						{
+    							"file": "test.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_2.pdf",
+    							"selectedForCarryForward": false
+    						}
+    					]
+            }
+          ]
+        },
+    		{
+          "engagementSectionTypeId": 3,
+          "engagementSectionStepCarryForwards": [
+            {
+    					"engagementSectionStepTypeId": 11,
+    					"isSectionStepSelected": false,
+    					"engagementsWorkingPapers": []
+    				},
+    				{
+    					"engagementSectionStepTypeId": 12,
+    					"isSectionStepSelected": true,
+    					"engagementsWorkingPapers": [
+    						{
+    							"file": "test_3.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_4.pdf",
+    							"selectedForCarryForward": false
+    						}
+    					]
+    				},
+    				{
+    					"engagementSectionStepTypeId": 13,
+    					"isSectionStepSelected": false,
+    					"engagementsWorkingPapers": []
+    				},
+    				{
+    					"engagementSectionStepTypeId": 14,
+    					"isSectionStepSelected": false,
+    					"engagementsWorkingPapers": []
+    				},
+    				{
+    					"engagementSectionStepTypeId": 15,
+    					"isSectionStepSelected": true,
+    					"engagementsWorkingPapers": [
+    						{
+    							"file": "test_5.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_6.pdf",
+    							"selectedForCarryForward": true
+    						}
+    					]
+    				}
+          ]
+        },
+    		{
+          "engagementSectionTypeId": 4,
+          "engagementSectionStepCarryForwards": [
+            {
+    					"engagementSectionStepTypeId": 16,
+    					"isSectionStepSelected": true,
+    					"engagementsWorkingPapers": [
+    						{
+    							"file": "test_6.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_8.pdf",
+    							"selectedForCarryForward": true
+    						},
+    						{
+    							"file": "test_9.pdf",
+    							"selectedForCarryForward": false
+    						},
+    						{
+    							"file": "test_10.pdf",
+    							"selectedForCarryForward": true
+    						}
+    					]
+    				}
+          ]
+        }
+      ],
+      "engagementInternalTeamRoles": [
+        
+      ],
+      "engagementClientTeamRoles": [
+        {
+          "userId": 4,
+    			"userName": "Ajay",
+          "userLastName": "Gouda",
+          "userEmail": "ajay.go@orioninc.com",						
+          "rolesId": [
+            10
+          ]
+        },
+    		{
+          "userId": 11,
+    			"userName": "Raul",
+          "userLastName": "Montano",
+          "userEmail": "raul.montano@orioninc.com",						
+          "rolesId": [
+            11
+          ]
+    		}																
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c1bf1945f1a24462a43c5ed6faa10209
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "9"
+    description: ""
+  - id: pair_bda4ca860b4848e1ba393d3d0d312f4f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

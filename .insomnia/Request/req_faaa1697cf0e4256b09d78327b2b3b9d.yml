@@ -1,0 +1,27 @@
+_id: req_faaa1697cf0e4256b09d78327b2b3b9d
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606207745
+created: 1691004229690
+url: "{{ _.apiEngagements }}/carry-forward/list"
+name: EngagementsListForCarryForward
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "9"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_f04a0c0fb1d6403b9b3321edc788bd9c
+type: Request
+parentId: fld_695cd448af4c4003a100a0b805f9332d
+modified: 1696606240206
+created: 1692808445980
+url: "{{ _.apiEngagements }}/1/30/client-team"
+name: Client/EngagementClientTeam
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
+    name: UserId
+    value: "12345"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1691004229646.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_11b8882a87044fe182c51d079436dbe0
+type: Request
+parentId: fld_e95272c4cf2b4287a2b2a0613619f342
+modified: 1696606126911
+created: 1695397892073
+url: "{{ _.apiUsers }}/add"
+name: AddNewUSer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"UserId": null,
+    	"Name": "Raul",
+    	"LastName": "Montaño",
+    	"Email": "raul.montano@orioninc40.com",
+    	"RoleId": 1,
+    	"TemplateAccess": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1695397892073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
