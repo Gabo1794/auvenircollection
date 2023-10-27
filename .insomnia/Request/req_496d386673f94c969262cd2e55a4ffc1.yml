@@ -1,0 +1,25 @@
+_id: req_496d386673f94c969262cd2e55a4ffc1
+type: Request
+parentId: fld_3e5ee141650d493eb0e7ddd587e0b54e
+modified: 1698424889310
+created: 1698345700552
+url: https://localhost:7047/api/document-request/client/1/engagement/30/dashboard-process
+name: DashboardProcess
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1698345700552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,10 +1,10 @@
-_id: req_066808e26b5344a2bdfd2dc2578542fa
+_id: req_04d95027e50c45af98f772e5db2243e6
 type: Request
 parentId: fld_695cd448af4c4003a100a0b805f9332d
-modified: 1698434526068
-created: 1692808437214
-url: "{{ _.apiEngagements }}/1/30/internal-team"
-name: Client/EngagementInternalTeam
+modified: 1697648670202
+created: 1697648665424
+url: "{{ _.apiEngagements }}/30/client/1/compilation-journey-users"
+name: GetEngagementUsersCompilationJourney
 description: ""
 method: GET
 body: {}
@@ -12,12 +12,16 @@ parameters: []
 headers:
   - id: pair_3ecd4e91eb74443a8ca7b0a26ec64529
     name: UserId
-    value: "12345"
+    value: "9"
+    description: ""
+  - id: pair_bda4ca860b4848e1ba393d3d0d312f4f
+    name: ""
+    value: ""
     description: ""
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1691004229652.5
+metaSortKey: -1691004229140
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

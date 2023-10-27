@@ -1,7 +1,7 @@
 _id: req_d1c2d0ce358b4992b7ee98b37b17c0a9
 type: Request
 parentId: fld_695cd448af4c4003a100a0b805f9332d
-modified: 1697127837038
+modified: 1698186721339
 created: 1692735945342
 url: "{{ _.apiEngagements }}"
 name: AddEngagement
@@ -12,7 +12,7 @@ body:
   text: |-
     {
       "clientId": 1,
-      "name": "Test 12-10-2023",
+      "name": "Test 24-10-2023",
     	 "clientCarryForwardId": 1,
       "engagementCarryForwardId": 30,
       "isCarryForward": true,
@@ -134,7 +134,15 @@ body:
         }
       ],
       "engagementInternalTeamRoles": [
-        
+        {
+          "userId": 19,
+    			"userName": "Kevin",
+          "userLastName": "Hernandez",
+          "userEmail": "kevin.hernandez@orioninc.com",						
+          "rolesId": [
+            4
+          ]
+        }
       ],
       "engagementClientTeamRoles": [
         {
